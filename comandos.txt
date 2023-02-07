@@ -1,0 +1,10 @@
+# Comandos Go
+go env
+go run main.go
+go build main.go
+./main
+go install
+
+# Criando um pacote via Github
+mkdir -p github.com/LeandroMelloo/hello-go
+cd github.com/LeandroMelloo/hello-go
