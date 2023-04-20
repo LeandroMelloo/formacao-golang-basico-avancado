@@ -1,0 +1,37 @@
+• O que estava acontecendo no Google, e por isso de construir uma linguagem para resolver alguns problemas enfrentados.
+• Criada por Ken Thompson (Unix, B, C), Rob Pike (UTF-8), e Robert Griesemer.
+• Em 2006, não tinha uma linguagem de compilação rápida, execução rápida, e fácil de programar. É uma linguagem criada para resolver as questões de performance e complexidade.
+• Eficiente
+    — Standard library é déis.
+    — Multiplataforma.
+    — Garbage collection (lightning fast!)
+    — Cross-compile.
+• Fácil de usar
+    — É uma linguagem compilada, de tipagem forte e estática,
+    — Tem pouquíssimas palavras reservadas, que vamos aprender todas no curso, ou seja, é muito de boas de aprender
+    — Só sobe nas listas de popularidade
+• Killer feature: Em 2006, logo após o primeiro dual core. Thread: 1mb. Goroutine: 2kb.
+• Quando usar Go?
+    — Escala
+    — Seviços web, redes, servers, machine learning, image processing, cryptomoedas.
+    — Quando precisar de uma lingaugem rápida, simples, fácil de aprender, e fácil de usar.
+• Usa em: APIs, CLIs, microservices, libraries/framework, processamento de dados. É a base dos serviços de cloud e orquestração de containers.
+• Comunidade:
+    — Slack: https://invite.slack.golangbridge.org/
+    — Exercícios em: https://github.com/crgimenes/Go-Hands-On
+• Livros:
+    — A Linguagem de Programação Go (Alan Donovan, Brian Kernighan): https://www.amazon.com.br/dp/8575225464/
+    — Go em Ação (William Kennedy, Brian Ketelsen, Erik St. Martin): https://www.amazon.com.br/dp/8575225065/
+    — Introdução à Linguagem Go (Caleb Doxsey): https://www.amazon.com.br/dp/8575224891/
+• Em inglês: gobyexample.com, forum.golangbridge.org, stackoverflow.com/questions/tagged/go
+• Documentação oficial:
+    — golang.org
+    — godoc.org
+    — golang.org/doc/effective_go.html
+• Exercicio Go:
+    — https://github.com/vkorbes/aprendago/issues?q=is%3Aopen+is%3Aissue+label%3Aexerc%C3%ADcio
+
+• Observação:
+    - Função main é a porta de entrada e a porta de saída de qualquer programa escrito em Go.
+    - ... -> é denominado uma função variádicas, ou seja, uma função que pode trabalhar com qualquer número de argumentos.
+    - para descartar uma variavel em Go utilizamos _ (underscore).

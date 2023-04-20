@@ -3,6 +3,9 @@ go env
 go run main.go
 go build main.go
 go install
+go get -> baixa pacotes do github
+go install -v golang.org/x/tools/cmd/godoc@latest
+godoc -http=:6060 -> documentação offline do go na porta 6060
 
 #### Criando um pacote via Github ####
 mkdir -p github.com/LeandroMelloo/hello-go
